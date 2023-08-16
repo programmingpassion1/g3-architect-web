@@ -111,6 +111,59 @@ main{
     font-weight: 400;
 }
 
+/* Features styles */
+.features-container{
+    display: flex;
+    padding: 20px;
+    gap: 100px;
+    margin-top: 100px;
+}
+
+.features-title{
+    max-width: 468px;
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+    border-left: 5px solid orange;
+    padding: 15px;
+}
+.features-description{
+    max-width: 586px;
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.all-features{
+    width: 586px;
+    height: 150px;
+    padding: 15px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.btn-secondary{
+    border-radius: 8px;
+    border: 0;
+    background: #FF900E;  
+    margin-top: -200px;
+    margin-left: -75px;
+    padding: 45px;
+}
+.years{
+    color: #FFF;  
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 70px;
+}
+.experience{
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 40px;
+}
+
 /* Media queries for different devices*/
 /* styles for mobile devices */
 
