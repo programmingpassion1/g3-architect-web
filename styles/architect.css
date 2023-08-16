@@ -112,13 +112,31 @@ main{
 }
 
 /* Media queries for different devices*/
+/* styles for mobile devices */
 
 @media screen and (max-width: 576px) {
-    header{
+    header, main{
         padding: 20px;
     }
-    .nav-container{
+    .nav-container, .teams-container{
         display: flex;
         flex-direction: column;
+    }
+    .teams-img-container img{
+        width: 100%;
+    }
+}
+
+/* styles for medium devices */
+@media screen and (min-width: 576px) and (max-width: 992px){
+    header, main{
+        padding: 20px;
+    }
+    .nav-container, .teams-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .teams-img-container img{
+        width: 100%;
     }
 }
