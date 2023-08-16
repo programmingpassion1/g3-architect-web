@@ -3,6 +3,10 @@
 *{
     font-family: 'Work Sans', sans-serif;
 }
+/* Hide style */
+.hide{
+    display: none;
+}
 /* Header styles */
 header{
     background: rgba(255, 144, 14, 0.10);
@@ -105,4 +109,16 @@ main{
     color: var(--dark-03, #727272);
     font-size: 1rem;
     font-weight: 400;
+}
+
+/* Media queries for different devices*/
+
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    .nav-container{
+        display: flex;
+        flex-direction: column;
+    }
 }
